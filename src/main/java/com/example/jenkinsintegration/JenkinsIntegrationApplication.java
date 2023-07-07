@@ -13,7 +13,7 @@ public class JenkinsIntegrationApplication {
 		SpringApplication.run(JenkinsIntegrationApplication.class, args);
 	}
 
-	@GetMapping("hello")
+	@GetMapping("/hello")
 	public String sayHello() {
 		return "Hello Sunil";
 	}
